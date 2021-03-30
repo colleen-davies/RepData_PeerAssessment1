@@ -342,7 +342,7 @@ steps taken per 5-minute interval within a day type (weekday or weekend).
 
 We create the time series plots of the average number of steps taken per 5-minute interval
 for both weekdays and weekends:
-``` {r split plot, message = FALSE}
+``` {r splitplot, message = FALSE}
     library(ggplot2)
     daytypeplot <- ggplot(data = avg_steps_impWD, aes(interval, avgsteps)) # initial ggplot call
     daytypeplot + facet_grid(rows = avg_steps_impWD$daytype) + geom_line() + # add line and facets

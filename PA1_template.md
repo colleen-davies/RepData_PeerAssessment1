@@ -483,7 +483,7 @@ for both weekdays and weekends:
         xlab("5-minute interval") + ylab("Average steps taken") + theme_bw() # add labels and change theme
 ```
 
-![](./figure/split plot-1.png)<!-- -->
+![](./figure/splitplot-1.png)<!-- -->
 
 We see that the "weekday" plot more closely matches the original. This 
 is expected since there are 2.8125 times as many observations as for the weekend
